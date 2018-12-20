@@ -6,6 +6,6 @@ Components used in this system:\
 -->Whitebox Labs Tentacle Shield\
 -->Altas Scientific EZO sensors\
 -->Adafruit datalogger\
--->FONA mini GSM 800h
+-->[FONA mini GSM 800h](https://learn.adafruit.com/adafruit-fona-mini-gsm-gprs-cellular-phone-module/overview)
 
 The Arduino code consists of a datalogging library and a data transmission sketch. To accurately represent your hardware setup, change total_circuits, channel_ids, and channel_names in the datalogging header file DataLogLib.h. In tentacle_to_Dweet, update "yourThing" to approriately name your device. 
